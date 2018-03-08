@@ -1,6 +1,6 @@
 # use a node base image
 FROM node:7-onbuild
-
+RUN bash -c 'echo -e ...first'
 # set maintainer
 LABEL maintainer "miiro@getintodevops.com"
 
